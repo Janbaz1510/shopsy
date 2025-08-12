@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shopsy/core/utils/bg_colors_utils.dart';
 import 'package:shopsy/features/product/presentation/widgets/common_image_widget.dart';
 import 'package:shopsy/features/product/presentation/widgets/common_text_widget.dart';
 import '../state/product_provider.dart';
-import '../state/cart_provider.dart';
 import 'product_detail_page.dart';
 import 'cart_page.dart';
 
@@ -50,17 +50,42 @@ class _ProductListPageState extends State<ProductListPage> {
               itemCount: productProvider.products.length,
               itemBuilder: (context, index) {
                 final product = productProvider.products[index];
-                return ListTile(
-                  contentPadding: EdgeInsets.all(8),
-                  leading: CommonImageWidget(imageURL: product.image),
-                  title: CommonTextWidget(title: product.title, fontSize: 14, fontWeight: FontWeight.w500),
-                  subtitle: Padding(
-                    padding: const EdgeInsets.only(top: 5.0),
-                    child: CommonTextWidget(title: "\u20B9${product.price}", fontSize: 14, fontWeight: FontWeight.bold),
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (_) => ProductDetailPage(product: product)));
+                    },
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          width: 80,
+                          height: 100,
+                          decoration: BoxDecoration(color: getBackgroundColor(product.image), borderRadius: BorderRadius.circular(12)),
+                          padding: EdgeInsets.all(6),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: CommonImageWidget(imageURL: product.image),
+                          ),
+                        ),
+                        SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              SizedBox(height: 5),
+                              CommonTextWidget(title: product.title, fontSize: 14, fontWeight: FontWeight.w500),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 15.0),
+                                child: CommonTextWidget(title: "\u20B9 ${product.price}", fontSize: 14, fontWeight: FontWeight.bold),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                  onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (_) => ProductDetailPage(product: product)));
-                  },
                 );
               },
             ),
