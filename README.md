@@ -13,9 +13,10 @@ A simple Flutter-based shopping app with:
 
 ## 📸 Screenshots
 
-| Home Screen | Cart Screen |
-|-------------|-------------|
-| ![Home](screenshots/home.png) | ![Cart](screenshots/cart.png) |
+| Product List Screen | Product Details Screen | Cart Screen |
+|---------------------|------------------------|-------------|
+| ![Product List](screenshots/product_list_screen.jpg) | ![Product Details](screenshots/product_details_screen.jpg) | ![Cart](screenshots/cart_screen.png) |
+
 
 ---
 
