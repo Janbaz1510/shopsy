@@ -29,7 +29,7 @@ class ProductDetailPage extends StatelessWidget {
           CommonTextWidget(title: product.title, fontWeight: FontWeight.bold, fontSize: 22, padding: 16),
           CommonTextWidget(title: "\u20B9${product.price.toStringAsFixed(2)}", padding: 16, fontWeight: FontWeight.w500, fontSize: 16),
           SizedBox(height: 16),
-          CommonTextWidget(title: product.description, maxLine: 10, fontSize: 16, padding: 16, fontWeight: FontWeight.w400),
+          CommonTextWidget(title: product.description, maxLines: 10, fontSize: 16, padding: 16, fontWeight: FontWeight.w400),
           Spacer(),
           Padding(
             padding: const EdgeInsets.all(16),

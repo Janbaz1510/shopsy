@@ -42,7 +42,7 @@ class CartPage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            CommonTextWidget(title: cartItem.product.title, textAlign: TextAlign.start, maxLine: 2, fontSize: 14, fontWeight: FontWeight.w500),
+                            CommonTextWidget(title: cartItem.product.title, textAlign: TextAlign.start, maxLines: 2, fontSize: 14, fontWeight: FontWeight.w500),
                             Padding(
                               padding: const EdgeInsets.only(top: 8.0),
                               child: CommonTextWidget(title: "Price: \u20B9${cartItem.product.price.toStringAsFixed(2)}", fontSize: 14, fontWeight: FontWeight.bold),
