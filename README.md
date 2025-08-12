@@ -19,10 +19,3 @@ A simple Flutter-based shopping app with:
 
 
 ---
-
-- Android Studio / VS Code (with Flutter & Dart plugins)
-- Git
-
-Check if Flutter is installed:
-```bash
-flutter --version
