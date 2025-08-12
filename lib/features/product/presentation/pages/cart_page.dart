@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shopsy/core/utils/common_image_widget.dart';
-import 'package:shopsy/core/utils/common_text_widget.dart';
+import 'package:shopsy/features/product/presentation/widgets/common_image_widget.dart';
+import 'package:shopsy/features/product/presentation/widgets/common_text_widget.dart';
 import '../state/cart_provider.dart';
 
 class CartPage extends StatelessWidget {
