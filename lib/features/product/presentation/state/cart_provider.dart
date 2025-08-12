@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:shopsy/core/features/product/domain/entities/cart_item.dart';
+import 'package:shopsy/features/product/domain/entities/cart_item.dart';
 import '../../domain/entities/product.dart';
 
 

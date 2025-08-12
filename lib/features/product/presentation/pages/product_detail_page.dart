@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shopsy/core/features/product/presentation/pages/cart_page.dart';
+import 'package:shopsy/features/product/presentation/pages/cart_page.dart';
 import 'package:shopsy/core/utils/common_text_widget.dart';
 import '../../domain/entities/product.dart';
 import '../state/cart_provider.dart';
