@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛍️ Shopsy - Flutter E-commerce Demo
 
 Shopsy is a simple e-commerce demo app built with Flutter.  
@@ -28,19 +27,19 @@ The app follows **Clean Architecture** principles with clear separation of conce
 
 ```
 lib/
-├── core/                  # Core utilities and constants
-│   ├── constants/         # App constants and themes
+├── core/                    # Core utilities and constants
+│   ├── constants/          # App constants and themes
 │   ├── utils/             # Helper functions and extensions
 │   └── widgets/           # Reusable UI components
-├── data/                  # Data layer
+├── data/                   # Data layer
 │   ├── models/            # Data models with Hive annotations
 │   ├── repositories/      # Repository implementations
 │   └── datasources/       # Local data sources
-├── domain/                # Business logic layer
+├── domain/                 # Business logic layer
 │   ├── entities/          # Pure Dart entities
 │   ├── repositories/      # Repository abstractions
 │   └── usecases/          # Business logic use cases
-└── presentation/          # UI layer
+└── presentation/           # UI layer
     ├── providers/         # State management with Provider
     ├── screens/           # App screens
     └── widgets/           # Screen-specific widgets
@@ -122,10 +121,10 @@ flutter build ios --release
 
 ```
 shopsy/
-├── android/               # Android-specific files
-├── ios/                   # iOS-specific files
-├── lib/                   # Flutter source code
-├── screenshots/           # App screenshots
+├── android/                # Android-specific files
+├── ios/                    # iOS-specific files
+├── lib/                    # Flutter source code
+├── screenshots/            # App screenshots
 ├── pubspec.yaml           # Dependencies and metadata
 └── README.md              # This file
 ```
@@ -201,6 +200,3 @@ If you encounter any issues or have questions, please:
 ---
 
 **Made with ❤️ using Flutter**
-=======
-
->>>>>>> 2897869d1d101e7e916169b4c378c14cee093a0b
