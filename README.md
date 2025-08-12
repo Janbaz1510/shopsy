@@ -1,6 +1,6 @@
-# 🛍️ ShopEase - Flutter E-commerce Demo
+# 🛍️ Shopsy - Flutter E-commerce Demo
 
-ShopEase is a simple e-commerce demo app built with Flutter.  
+Shopsy is a simple e-commerce demo app built with Flutter.  
 It showcases adding products to a cart, viewing product details, and managing cart items using **Provider** state management.
 
 ## 📱 Download APK
@@ -137,9 +137,9 @@ taskify/
 
 ## 📸 Screenshots
 
-| Home Screen | Add Task | Task Details |
+| Product List | Product Details | Cart Screen |
 |-------------|----------|--------------|
-| ![Home](screenshots/home.png) | ![Add](screenshots/add.png) | ![Details](screenshots/details.png) |
+| ![Product List](screenshots/product_list_screen.png) | ![Product Details](screenshots/product_details_screen.png) | ![Cart](screenshots/cart_screen.png) |
 
 ## 🎯 Key Highlights
 
@@ -188,7 +188,7 @@ taskify/
 ## 🤝 Support
 
 If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/dextertalha/taskify/issues) section
+1. Check the [Issues](https://github.com/Janbaz1510/shopsy/issues) section
 2. Create a new issue if needed
 3. Provide detailed information about the problem
 
