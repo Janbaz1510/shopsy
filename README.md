@@ -5,7 +5,7 @@ It showcases adding products to a cart, viewing product details, and managing ca
 
 ## 📱 Download APK
 
-<a href="https://drive.google.com/file/d/1fMaetZ286Sid6-iTqL1U_FP2Z78eGh2U/view?usp=sharing" target="_blank"><strong>Download Taskify APK</strong></a>
+<a href="https://github.com/Janbaz1510/shopsy/releases/tag/shopsy" target="_blank"><strong>Download Shopsy APK</strong></a>
 
 ## 🌟 Features
 
@@ -120,7 +120,7 @@ flutter build ios --release
 ## 📂 Project Structure
 
 ```
-taskify/
+shopsy/
 ├── android/                # Android-specific files
 ├── ios/                    # iOS-specific files
 ├── lib/                    # Flutter source code
