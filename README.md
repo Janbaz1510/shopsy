@@ -27,19 +27,19 @@ The app follows **Clean Architecture** principles with clear separation of conce
 
 ```
 lib/
-├── core/                    # Core utilities and constants
-│   ├── constants/          # App constants and themes
+├── core/                  # Core utilities and constants
+│   ├── constants/         # App constants and themes
 │   ├── utils/             # Helper functions and extensions
 │   └── widgets/           # Reusable UI components
-├── data/                   # Data layer
+├── data/                  # Data layer
 │   ├── models/            # Data models with Hive annotations
 │   ├── repositories/      # Repository implementations
 │   └── datasources/       # Local data sources
-├── domain/                 # Business logic layer
+├── domain/                # Business logic layer
 │   ├── entities/          # Pure Dart entities
 │   ├── repositories/      # Repository abstractions
 │   └── usecases/          # Business logic use cases
-└── presentation/           # UI layer
+└── presentation/          # UI layer
     ├── providers/         # State management with Provider
     ├── screens/           # App screens
     └── widgets/           # Screen-specific widgets
@@ -121,10 +121,10 @@ flutter build ios --release
 
 ```
 shopsy/
-├── android/                # Android-specific files
-├── ios/                    # iOS-specific files
-├── lib/                    # Flutter source code
-├── screenshots/            # App screenshots
+├── android/               # Android-specific files
+├── ios/                   # iOS-specific files
+├── lib/                   # Flutter source code
+├── screenshots/           # App screenshots
 ├── pubspec.yaml           # Dependencies and metadata
 └── README.md              # This file
 ```
