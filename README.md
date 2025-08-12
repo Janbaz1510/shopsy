@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ Shopsy - Flutter E-commerce Demo
 
 Shopsy is a simple e-commerce demo app built with Flutter.  
@@ -200,3 +201,6 @@ If you encounter any issues or have questions, please:
 ---
 
 **Made with ❤️ using Flutter**
+=======
+
+>>>>>>> 2897869d1d101e7e916169b4c378c14cee093a0b
