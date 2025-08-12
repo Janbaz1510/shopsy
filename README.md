@@ -1,10 +1,7 @@
-# shopsy
-
-A new Flutter project.
 
 ## Getting Started
 
-# Flutter Shopping Cart App 🛒
+# shopsy 🛒
 
 A simple Flutter-based shopping app with:
 - Product listing
@@ -22,14 +19,6 @@ A simple Flutter-based shopping app with:
 
 ---
 
-## 🚀 Getting Started
-
-Follow these steps to run the project locally.
-
-### 1️⃣ Prerequisites
-Make sure you have the following installed:
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (latest stable)
-- Dart (comes with Flutter)
 - Android Studio / VS Code (with Flutter & Dart plugins)
 - Git
 
