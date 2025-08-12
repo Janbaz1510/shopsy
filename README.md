@@ -139,7 +139,7 @@ shopsy/
 
 | Product List | Product Details | Cart Screen |
 |-------------|----------|--------------|
-| ![Product List](screenshots/product_list_screen.png) | ![Product Details](screenshots/product_details_screen.png) | ![Cart](screenshots/cart_screen.png) |
+| ![Product List](screenshots/product_list_screen.jpg) | ![Product Details](screenshots/product_details_screen.jpg) | ![Cart](screenshots/cart_screen.jpg) |
 
 ## 🎯 Key Highlights
 
